@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Your Dietition</title>
+        <script src ="main.js"></script> 
+        <link href="style.css" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Bubblegum+Sans|Barlow+Semi+Condensed|Lobster+Two|Sniglet|Gaegu|Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        
+        <div class="container" id="maindiv">
+            <h1>Your Dietition <small><small>By Bestin B Thomas</small></small></h1>
+            <form class="mainform" id="myForm">
+                <div class="formdiv">
+                    <label for="ageInput">Age</label>
+                    <input class="input" type="number" id="ageInput" placeholder="Enter Your Age"/>
+                </div>
+                <div class="formdiv">
+                    <label for="heightInput">Height</label>
+                    <input class="input" type="number" id="heightInput" placeholder="Enter Your Height in centimeter"/>
+                </div>
+                <div class="formdiv">
+                    <label for="WeightInput">Weight</label>
+                    <input type="number" class="input" id="weightInput" placeholder="Enter Your Weight in kilogram"/>
+                </div>
+                <div class="formdiv">
+                    <label for="gender">Gender</label>
+                    <select id ="gender">
+                        <option value="">Please select</option>
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                    </select>
+                </div>
+                <div class="formdiv">
+                    <label for="calories">Calories</label>
+                    <input type="number" class="input" id="calories" placeholder="Enter the amount of calories in (kcal)"/>
+                </div>
+                <div class="buttondiv">
+                        <button type="button" class = "loadBut" onclick="Loadinfo()" ><b>load previous</b></button>
+                        <button type="button" class = "subBut" onclick="calculateReq()" ><b>submit</b></button>
+                        <button type="button" class = "delBut" onclick="deleteinfo()" ><b>delete previous</b></button>
+                </div>
+            </form>
+            <div id="infodiv" class="Infodiv"></div>
+        </div>      
+        <div class="loadcontainer" id="prevInfo">
+        </div>
+    </body>
+</html>

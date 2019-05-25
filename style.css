@@ -1,0 +1,116 @@
+html {
+    min-height: 100%;
+}
+body{
+    min-height: 100%;
+    background: linear-gradient(0deg,#777,#f0f0f0);
+}
+label{
+    width: 150px;
+    display: inline-block;
+    text-align: right;
+}
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    border-width: 6px; 
+    border-style: solid;
+    border-color: #aaa;
+    border-radius: 5%;
+    padding: 5%;
+
+}
+.container h1 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+.formdiv {
+    padding: 2%;
+}
+.formdiv label {
+    font-size: 25px;
+    font-family: 'Gaegu', cursive;
+}
+.formdiv input , select{
+    font-family: 'Sniglet', cursive;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    width: 3.5in;
+}
+.formdiv select {
+    cursor: pointer;
+}
+.formdiv select:focus{
+    border: 2px solid #b0b0ff;
+}
+.formdiv input:focus{
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.subBut {
+    padding: 3%;
+    font-size: 20px;
+    font-family: 'Montserrat', cursive;
+    background: rgba(100, 100, 255, 0.4);
+    border: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    color: white;
+}
+.loadBut {
+    padding: 3%;
+    font-size: 20px;
+    font-family: 'Montserrat', cursive;
+    background: rgba(100, 100, 255, 0.4);
+    border: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    color: white;
+}
+.delBut {
+    padding: 3%;
+    font-size: 20px;
+    font-family: 'Montserrat', cursive;
+    background: rgba(100, 100, 255, 0.4);
+    border: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    color: white;
+    float: inline-end;
+}
+.Infodiv {
+    font-size: 20px;
+    padding-top: 30px;
+    font-family: 'Lobster Two', cursive;
+    align-content: center;
+}
+.buttondiv {
+    height: 50px;
+    position: relative;
+}
+.loadcontainer {
+    visibility: hidden;
+    margin: auto;
+}
+.smallcont {
+    background: #ccc;
+    width: 80%;
+    max-width: 600px;
+    margin: 18px auto;
+    border-width: 6px; 
+    padding: 2%;
+    border-bottom-left-radius: 2%;
+}
+.datepara {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 14px;
+}
+
+.infopara {
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 16px; 
+}
